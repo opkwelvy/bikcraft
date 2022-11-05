@@ -4,5 +4,6 @@
 /**Componentes**/
 @import "./utilidades/componentes.css";
 @import "./utilidades/tipografica.css";
+@import "./utilidades/cores.css";
 /*Home*/
 @import "./home/introducao.css";
