@@ -9,6 +9,9 @@ ul{
   list-style: none;
 }
 h1,
+h2,
+h3,
+h4,
  p,
  ul{
   margin: 0px;
@@ -20,4 +23,8 @@ a{
 img{
   max-width: 100%;
   display: block;
+}
+img[src$=".jpg"]{ /*Quando você quer atribuir configuração para algo que tenha tal elemento e termina com uma extensão ou palavra específica*/
+  border-radius: 4px;
+
 }

@@ -1,0 +1,60 @@
+.bicicletas-lista{
+  padding-top: 240px;
+  padding-bottom: 120px;
+}
+.bicicletas-lista h2{
+  margin-bottom: 40px ;
+  max-width: 1200px;
+  box-sizing: border-box; /* Soma de paddins */
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.bicicletas-lista ul{
+  display: flex;
+  gap: 40px;
+  padding: 0 20px 20px 20px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: auto; /*Cria uma barra de scroll no lugar exato que você quer quando o conteúdo passa o container. Tem como criar as barras no eixo exato que você quer!*/
+}
+.bicicletas-lista li{
+  flex: 1; /* Torna o conteúdo flexível*/
+  min-width: 280px;
+}
+.bicicletas-lista a{ /* O "A" é display inline, é necessário coloca-lo em block caso queira ocupar todo conteúdo*/
+  display: block;
+}
+.bicicletas-lista img{
+  margin-bottom: 16px ;
+}
+.bicicletas-lista h3{
+  margin-bottom: 8px;
+  display: flex; /*Para alinhas-se com o before*/
+  align-items: center; /*Para alinhar ambos ao centro*/
+  gap: 8px;
+}
+.bicicletas-lista h3::before{
+  content: "";
+  background-color: var(--cor-p1);
+  height: 8px;
+  width: 12px;
+  display: inline-block;
+}
+.bicicletas-lista a:hover h3::before{
+  width: 24px;
+  transition: width 0.2s;
+}
+.bicicletas-lista li span{
+  padding-left: 20px
+}
+@media (max-width: 800px){
+  .bicicletas-lista{
+    padding-bottom: 60px;
+  }
+  .bicicletas-lista ul{
+    gap: 20px;
+  }
+}
