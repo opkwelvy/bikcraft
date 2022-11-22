@@ -6,6 +6,14 @@
   margin-right: auto;
   margin-left: auto;
 }
+.titulo-bg{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--cor-11);
+}
+.titulo p{
+  margin-bottom: 4px;
+}
 .botao{
   display: inline-block;
   padding: 16px 32px;
@@ -15,7 +23,7 @@
   text-transform: uppercase;
   color: var(--cor-p5);
   font: 600 1.125rem/1.33 "Poppins", sans-serif;
-  max-width: max-content /*Quer dizer que o botão terá sempre o tamanho dele;
+  max-width: max-content /*Quer dizer que o botão terá sempre o tamanho dele*/;
 }
 .botao:hover{
   background: linear-gradient(#ffb60d, #e59317);
@@ -28,12 +36,6 @@
   background: var(--cor-9);
 }
 
-@media (max-width: 600px){
-  .ibotao{
-    padding: 12px 16px;
-    font-size: 1rem;
-  }
-}
 .link{
   display: inline-block;
   color: var(--cor-p1);
@@ -49,4 +51,21 @@
 }
 .link:hover{
   color: var(--cor-0);
+}
+@media (max-width: 800px){
+  .titulo-bg{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .titulo p{
+    font-size: 1rem;
+    text-transform: initial;
+    font-weight: 400;
+  }
+}
+@media (max-width: 600px){
+  .ibotao{
+    padding: 12px 16px;
+    font-size: 1rem;
+  }
 }

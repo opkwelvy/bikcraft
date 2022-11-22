@@ -1,0 +1,15 @@
+.termos h2{
+  margin-bottom: 20px;
+  font: 600;
+}
+.termos p + h2{ /*Estou falando com o H2 quer irá vir depois do P*/
+  margin-top: 40px;
+}
+.termos{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.termos p{
+  margin-bottom: 24px;
+  max-width: 75ch;
+}
