@@ -14,6 +14,9 @@
   margin-right: auto;
   overflow-x: auto; /*Cria uma barra de scroll no lugar exato que você quer quando o conteúdo passa o container. Tem como criar as barras no eixo exato que você quer!*/
 }
+#bicicleta .bicicletas-lista ul{
+  padding: 0px 0px 20px 0px
+}
 .bicicletas-lista li{
   flex: 1; /* Torna o conteúdo flexível*/
   min-width: 280px;

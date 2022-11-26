@@ -24,24 +24,25 @@
 .bicicleta-conteudo > p{
   margin-bottom: 32px;
 }
-.bicicleta-compra{
+.bicicleta-comprar{
   display: grid;
   grid-template-columns: max-content auto;
   align-items: center;
-  justify-items: center;
-  gap: 8px 12px;
+  justify-items: left;
+  gap: 8px;
+  margin-bottom: 40px;
 }
 .bicicleta-comprar a{
   grid-row: span 2;
 }
-.bicicleta-compra span{
+.bicicleta-comprar span{
   display: flex;
   align-items: center;
   background-color: var(--cor-12);
   padding: 4px 8px;
   border-radius: 4px;
   gap: 8px;
-  margin-bottom: 40px;
+  margin-bottom: 5px;
 
 }
 .bicicleta-conteudo h2{
@@ -94,7 +95,7 @@
   .bicicleta-informacoes{
     grid-template-columns: 1fr;
   }
-  .bicicleta-compra{
+  .bicicleta-comprar{
     grid-template-columns: 1fr;
   }
 }
