@@ -23,6 +23,7 @@
   text-transform: uppercase;
   color: var(--cor-p5);
   font: 600 1.125rem/1.33 "Poppins", sans-serif;
+  border: none;
   max-width: max-content /*Quer dizer que o botão terá sempre o tamanho dele*/;
 }
 .botao:hover{
