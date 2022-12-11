@@ -42,10 +42,10 @@
 .perguntas button[aria-expanded=true]::hover{
   transform: rotate(180deg); /*Girar 180 graus*/
 }
-.perguntas dd{
+.js .perguntas dd{
   display: none;
 }
-.perguntas dd.ativa{
+.js .perguntas dd.ativa{
   display: block;
 }
 .perguntas dd{
